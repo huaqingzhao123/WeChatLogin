@@ -1,2 +1,7 @@
 # WeChatLogin
 Unity原生微信登录Android工程
+
+自行替换工程中包名
+默认生成aar文件，拖到Unity中可能出现打包失败
+如果出现BulidConfig重复则是Unity中已经存在Gradle配置文件，将aar中的BulidConfig删除
+然后将Android工程中的BulidGradle配置手动合并到Unity中的Gradle配置文件中
